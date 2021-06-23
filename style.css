@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(45deg, #C5E7FD, #d0f8e6);
+}
+
+.add-menu {
+    padding: 2%;
+    border-radius: .5em;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    background-color: white;
+}
+
+.add-menu button {
+    background-image: linear-gradient(#C5E7FD, #d0f8e6);
+    border: none;
+    border-radius: .5em;
+    box-shadow: 1px 2px 1px gray;
+}
+
+.add-menu input{
+    border: 1px solid pink ;
+}
+.add-menu button, .add-menu input {
+    padding: 2%;
+}
+
+.container {
+    padding: 5vmin;
+    display: flex;
+    flex-wrap: wrap;
+    width: 35%;
+    gap: 4%;
+}
+
+.chips {
+    display: flex;
+    padding: 1vmin;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+    width: 35%;
+    height: 40px;
+    border-radius : 20%;
+    background-color: white;
+}
+
+.chips img {
+    position: absolute;
+    width: 5vmin;
+    height: 5vmin;
+    border-radius: 50%;
+    object-fit: cover;
+    left: -1vmin;
+}
+
+.chips button {
+    position: absolute;
+    right: 1vmin;
+    padding: 1vmin;
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 3vmin;
+    height: 3vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chips button:hover {
+    background-color: gray;
+}
